@@ -25,16 +25,23 @@ window over any app, with pinyin for Chinese and romanization for Japanese and K
 
 ## Funciones
 
-- Detección automática de la canción en reproducción y letra sincronizada resaltada en tiempo real.
-- Ventana flotante: arrastrable, redimensionable y minimizable a una **burbuja** pequeña que se pega al borde de la
-  pantalla (tócala para volver a ver la letra). Puede abrirse sola al sonar música y ocultarse al parar.
-- **Chino:** pinyin por palabras (con la lectura correcta de los caracteres de varias lecturas), con tonos, con
+- Detección automática de la canción que suena. Siempre intenta encontrar primero la **letra sincronizada** y solo
+  usa texto plano si no hay ninguna. Una etiqueta indica si la letra está sincronizada, y puedes ajustar el desfase
+  ±0,5 s por canción.
+- Ventana flotante: se puede mover, redimensionar y reducir a una **burbuja** que se pega al borde de la pantalla
+  (tócala para recuperar la letra). Puede abrirse sola al empezar la música y ocultarse al pararla.
+- **Letra a pantalla completa:** amplía la letra dentro de la app. Sigue la canción que suena (y cambia sola cuando
+  cambia la canción), se puede recargar si no es la correcta, copiar o compartir en hanzi, pinyin o ambos.
+- **Buscador de letras** por título o artista, con scroll infinito; **favoritas** (guardadas en tu móvil, con copia
+  de seguridad y restauración) y lista de **canciones recientes** en la pantalla principal.
+- **Chino:** pinyin por palabras (lecturas correctas en caracteres con varias pronunciaciones), con marcas de tono,
   números o sin tonos; escritura simplificada o tradicional; colores por nivel HSK 3.0.
-- **Japonés:** romaji Hepburn, con lectura de los kanji. **Coreano:** romanización revisada.
-- Varias fuentes de letras, y un botón ↻ para descartar una letra incorrecta y probar la siguiente.
+- **Japonés:** romaji Hepburn, con lectura de los kanji. **Coreano:** Romanización Revisada.
+- Varias fuentes de letras que puedes activar o desactivar, un botón ↻ para descartar letras erróneas y probar la
+  siguiente, y una lista de apps de música que ignorar.
 - Material 3, con modo claro y oscuro según el sistema.
-- Disponible en inglés, español, catalán, francés, alemán, portugués, italiano, chino (simplificado y tradicional),
-  japonés y coreano.
+- Disponible en inglés, español, catalán, francés, alemán, portugués, italiano, chino (simplificado y
+  tradicional), japonés y coreano.
 
 ## Instalar
 
@@ -57,8 +64,12 @@ rato, quita la restricción de batería a la app: algunos fabricantes cierran lo
 
 ## Privacidad
 
-No hay cuentas, publicidad ni analíticas. Para buscar una letra, la app envía el **título y el artista** de la
-canción a los servicios de letras configurados (ver abajo). Nada más sale del dispositivo.
+Sin cuentas, anuncios ni analíticas. Para buscar letras, la app envía el **título y el artista** de la canción (o lo
+que escribas en el buscador) a los servicios de letras configurados (ver abajo). Las favoritas, las canciones recientes
+y los ajustes de sincronización se guardan **solo en tu dispositivo** y puedes borrarlos o desactivarlos en Ajustes.
+De forma opcional, como mucho una vez al día, la app consulta a GitHub el número de la última versión para avisarte de
+las actualizaciones (no se envía ningún dato personal); puedes desactivarlo en Ajustes. Nada más sale de tu
+dispositivo.
 
 ## Aviso sobre las letras
 
