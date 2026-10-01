@@ -9,6 +9,16 @@ chino y romanización para japonés y coreano.
 *A free Android app that detects the song playing on your phone, fetches its lyrics and shows them in a floating
 window over any app, with pinyin for Chinese and romanization for Japanese and Korean.*
 
+<p align="center">
+  <img src="screenshots/01-japanese.png" width="19%" alt="Letra japonesa con romaji">
+  <img src="screenshots/02-chinese.png" width="19%" alt="Letra china con pinyin">
+  <img src="screenshots/03-settings.png" width="19%" alt="Ajustes">
+  <img src="screenshots/04-chinese-settings.png" width="19%" alt="Ajustes de chino">
+  <img src="screenshots/05-general-settings.png" width="19%" alt="Ajustes generales">
+</p>
+
+<p align="center"><sub>Japonés con romaji · Chino con pinyin · Ajustes</sub></p>
+
 ## Funciones
 
 - Detección automática de la canción en reproducción y letra sincronizada resaltada en tiempo real.

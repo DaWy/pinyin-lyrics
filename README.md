@@ -6,6 +6,16 @@
 etc.), looks up its lyrics and shows them in a **floating window over any app**, with **pinyin** for Chinese and
 romanization for Japanese and Korean.
 
+<p align="center">
+  <img src="screenshots/01-japanese.png" width="19%" alt="Japanese lyrics with romaji">
+  <img src="screenshots/02-chinese.png" width="19%" alt="Chinese lyrics with pinyin">
+  <img src="screenshots/03-settings.png" width="19%" alt="Settings">
+  <img src="screenshots/04-chinese-settings.png" width="19%" alt="Chinese settings">
+  <img src="screenshots/05-general-settings.png" width="19%" alt="General settings">
+</p>
+
+<p align="center"><sub>Japanese with romaji · Chinese with pinyin · Settings (screenshots shown with the Spanish interface)</sub></p>
+
 ## Features
 
 - Automatic detection of the song that is playing, with synced lyrics highlighted in real time.
