@@ -32,6 +32,9 @@ window over any app, with pinyin for Chinese and romanization for Japanese and K
   (tócala para recuperar la letra). Puede abrirse sola al empezar la música y ocultarse al pararla.
 - **Letra a pantalla completa:** amplía la letra dentro de la app. Sigue la canción que suena (y cambia sola cuando
   cambia la canción), se puede recargar si no es la correcta, copiar o compartir en hanzi, pinyin o ambos.
+- **Modo mini:** solo la línea actual (y la siguiente) sobre un fondo casi transparente; se puede arrastrar y tiene
+  una ✕ para cerrarlo.
+- **¿Letra incorrecta?** Mantén pulsado ↻ para buscar y elegir tú la correcta; la elección se recuerda para esa canción.
 - **Buscador de letras** por título o artista, con scroll infinito; **favoritas** (guardadas en tu móvil, con copia
   de seguridad y restauración) y lista de **canciones recientes** en la pantalla principal.
 - **Chino:** pinyin por palabras (lecturas correctas en caracteres con varias pronunciaciones), con marcas de tono,

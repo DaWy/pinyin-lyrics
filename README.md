@@ -29,6 +29,9 @@ romanization for Japanese and Korean.
   bring the lyrics back). It can open by itself when music starts and hide when it stops.
 - **Full-screen lyrics:** expand the lyrics inside the app. They follow the song that is playing (and switch by
   themselves when the song changes), can be reloaded if they're wrong, copied or shared as Hanzi, pinyin or both.
+- **Mini mode:** just the current line (and the next one) over a nearly transparent background; draggable, with a ✕
+  to close it.
+- **Wrong lyrics?** Long-press ↻ to search and pick the right ones yourself; your choice is remembered for that song.
 - **Lyrics search** by title or artist, with endless scrolling, plus **favorites** (saved on your phone, with backup
   and restore) and a list of **recently played** songs on the home screen.
 - **Chinese:** pinyin by word (correct readings for characters with several pronunciations), with tone marks,
