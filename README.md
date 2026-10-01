@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="screenshots/icon.png" width="120" alt="PinyinLyrics">
+</p>
+
 # PinyinLyrics
 
 🇬🇧 **English** · 🇪🇸 [Español](README.es.md)
