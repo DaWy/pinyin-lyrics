@@ -21,8 +21,8 @@
   h1 span{color:var(--yellow)}
   .tag{font-size:clamp(1.05rem,2.6vw,1.3rem);color:var(--blue);margin:0 auto 18px;max-width:640px}
   .lead{color:var(--muted);max-width:640px;margin:0 auto}
-  .shots{display:flex;gap:22px;justify-content:center;align-items:flex-start;padding:44px 20px 10px;overflow-x:auto;scroll-snap-type:x mandatory}
-  .phone{flex:0 0 auto;width:230px;scroll-snap-align:center;border-radius:30px;padding:7px;background:#05080f;box-shadow:0 18px 40px #000a,0 0 0 1px #34476e}
+  .shots{display:flex;gap:22px;justify-content:center;justify-content:safe center;align-items:flex-start;padding:44px 20px 10px;overflow-x:auto;scroll-snap-type:x mandatory}
+  .phone{flex:0 0 auto;width:210px;scroll-snap-align:center;border-radius:30px;padding:7px;background:#05080f;box-shadow:0 18px 40px #000a,0 0 0 1px #34476e}
   .phone img{display:block;width:100%;border-radius:24px}
   .phone:nth-child(2){margin-top:-18px}
   .phone:nth-child(2n){transform:translateY(14px)}
@@ -55,9 +55,10 @@
     <p class="lead" data-l="es">Una app de Android gratuita que detecta la canción que suena en tu móvil, busca su letra y la muestra en una ventana flotante, con pinyin para chino y romanización para japonés y coreano.</p>
   </div>
   <div class="shots">
-    <div class="phone"><img src="screenshots/02-chinese.png" alt="Chinese lyrics with pinyin"></div>
-    <div class="phone"><img src="screenshots/01-japanese.png" alt="Japanese lyrics with romaji"></div>
-    <div class="phone"><img src="screenshots/03-settings.png" alt="Settings"></div>
+    <div class="phone"><img src="screenshots/floating.jpg" alt="Floating lyrics with pinyin over the home screen"></div>
+    <div class="phone"><img src="screenshots/fullscreen.jpg" alt="Full-screen lyrics with pinyin"></div>
+    <div class="phone"><img src="screenshots/mini.jpg" alt="Mini mode showing the current line"></div>
+    <div class="phone"><img src="screenshots/settings.jpg" alt="Chinese settings with HSK colors"></div>
   </div>
 </header>
 
