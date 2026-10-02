@@ -1,0 +1,60 @@
+:root{--navy:#1b2a44;--deep:#0d1426;--blue:#90caf9;--yellow:#ffd54f;--text:#e8edf7;--muted:#9aa8c4;--card:#223356}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--text);background:var(--deep);line-height:1.6}
+a{color:var(--blue)}
+img{max-width:100%;height:auto}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+.center{text-align:center}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;max-width:1000px;margin:0 auto;padding:16px 20px}
+.top .brand{display:flex;align-items:center;gap:8px;color:#fff;font-weight:700;text-decoration:none}
+.top .brand img{border-radius:7px}
+.top .links{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:.92rem}
+.top .links a{color:var(--muted);text-decoration:none}
+.top .links a:hover{color:#fff}
+.top .lang-switch{border:1px solid #34476e;border-radius:999px;padding:3px 12px;color:var(--yellow)}
+.hero{background:radial-gradient(1200px 500px at 50% -10%,#2c4573 0%,var(--navy) 45%,var(--deep) 100%);padding-bottom:24px}
+.hero .center{padding-top:24px}
+.icon{width:96px;height:96px;border-radius:22px;box-shadow:0 10px 30px #0008}
+h1{font-size:clamp(2.2rem,6vw,3.4rem);margin:18px 0 6px;letter-spacing:-.02em;line-height:1.15}
+.hero h1 span{color:var(--yellow)}
+.tag{font-size:clamp(1.05rem,2.6vw,1.3rem);color:var(--blue);margin:0 auto 18px;max-width:640px}
+.lead{color:var(--muted);max-width:640px;margin:0 auto}
+.btn{display:inline-block;background:var(--yellow);color:#1b2a44;font-weight:700;text-decoration:none;border-radius:999px;padding:11px 22px}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--yellow);border:1px solid var(--yellow)}
+.cta{margin:24px 0 0}
+.shots{display:flex;gap:22px;justify-content:center;justify-content:safe center;align-items:flex-start;padding:44px 20px 10px;overflow-x:auto;scroll-snap-type:x mandatory}
+.phone{flex:0 0 auto;width:210px;scroll-snap-align:center;border-radius:30px;padding:7px;background:#05080f;box-shadow:0 18px 40px #000a,0 0 0 1px #34476e}
+.phone img{display:block;width:100%;border-radius:24px}
+h2.sec{font-size:1.6rem;margin:48px 0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;padding:12px 0}
+.card{background:var(--card);border:1px solid #2f4476;border-radius:16px;padding:20px}
+.card .e{font-size:1.7rem}
+.card h3{margin:8px 0 4px;font-size:1.05rem;color:#fff}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.guides{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;padding:12px 0}
+.guide{display:block;background:var(--card);border:1px solid #2f4476;border-radius:16px;padding:20px;text-decoration:none;color:var(--text)}
+.guide:hover{border-color:var(--blue)}
+.guide h3{margin:0 0 6px;color:#fff;font-size:1.05rem}
+.guide p{margin:0 0 10px;color:var(--muted);font-size:.93rem}
+.guide span{color:var(--yellow);font-size:.9rem;font-weight:600}
+.faq details{background:var(--card);border:1px solid #2f4476;border-radius:12px;margin:10px 0;padding:14px 18px}
+.faq summary{cursor:pointer;font-weight:600;color:#fff}
+.faq p{margin:10px 0 0;color:var(--muted)}
+.beta{margin:48px 0 8px;background:linear-gradient(135deg,#2c4573,#223356);border:1px solid #3a528a;border-radius:20px;padding:28px;text-align:center}
+.beta h2{margin:0 0 8px}
+.beta p{color:var(--muted);max-width:560px;margin:8px auto}
+footer{text-align:center;padding:32px 20px 48px;color:var(--muted);font-size:.9rem}
+footer a{margin:0 10px}
+.small{max-width:640px;margin:16px auto 0;font-size:.82rem}
+.article{max-width:760px;padding-top:8px;padding-bottom:24px}
+.article h1{font-size:clamp(1.8rem,5vw,2.4rem)}
+.article h2{margin:32px 0 8px;font-size:1.3rem;color:#fff}
+.article p,.article li{color:#d5deef}
+.article li{margin:6px 0}
+.crumbs{font-size:.85rem;color:var(--muted);margin-bottom:0}
+.crumbs a{color:var(--muted)}
+.cta-box{background:var(--card);border:1px solid #2f4476;border-radius:16px;padding:20px 24px;margin:36px 0}
+.cta-box h2{margin-top:0}
+@media (max-width:560px){.top{flex-direction:column;align-items:flex-start}}

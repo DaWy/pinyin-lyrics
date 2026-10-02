@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy Policy — PinyinLyrics
+description: Privacy policy of PinyinLyrics, the Android app that shows song lyrics with pinyin. No accounts, no ads, no analytics.
 permalink: /privacy-policy/
 ---
 
