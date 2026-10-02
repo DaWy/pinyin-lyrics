@@ -11,14 +11,13 @@ etc.), looks up its lyrics and shows them in a **floating window over any app**,
 romanization for Japanese and Korean.
 
 <p align="center">
-  <img src="screenshots/01-japanese.png" width="19%" alt="Japanese lyrics with romaji">
-  <img src="screenshots/02-chinese.png" width="19%" alt="Chinese lyrics with pinyin">
-  <img src="screenshots/03-settings.png" width="19%" alt="Settings">
-  <img src="screenshots/04-chinese-settings.png" width="19%" alt="Chinese settings">
-  <img src="screenshots/05-general-settings.png" width="19%" alt="General settings">
+  <img src="screenshots/floating.jpg" width="24%" alt="Floating lyrics with pinyin over the home screen">
+  <img src="screenshots/fullscreen.jpg" width="24%" alt="Full-screen lyrics with pinyin">
+  <img src="screenshots/mini.jpg" width="24%" alt="Mini mode">
+  <img src="screenshots/settings.jpg" width="24%" alt="Chinese settings with HSK colors">
 </p>
 
-<p align="center"><sub>Japanese with romaji · Chinese with pinyin · Settings (screenshots shown with the Spanish interface)</sub></p>
+<p align="center"><sub>Floating window · Full-screen lyrics · Mini mode · Chinese settings (screenshots shown with the Spanish interface)</sub></p>
 
 ## Features
 

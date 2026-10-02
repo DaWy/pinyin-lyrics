@@ -14,14 +14,13 @@ chino y romanización para japonés y coreano.
 window over any app, with pinyin for Chinese and romanization for Japanese and Korean.*
 
 <p align="center">
-  <img src="screenshots/01-japanese.png" width="19%" alt="Letra japonesa con romaji">
-  <img src="screenshots/02-chinese.png" width="19%" alt="Letra china con pinyin">
-  <img src="screenshots/03-settings.png" width="19%" alt="Ajustes">
-  <img src="screenshots/04-chinese-settings.png" width="19%" alt="Ajustes de chino">
-  <img src="screenshots/05-general-settings.png" width="19%" alt="Ajustes generales">
+  <img src="screenshots/floating.jpg" width="24%" alt="Letra con pinyin flotando sobre el escritorio">
+  <img src="screenshots/fullscreen.jpg" width="24%" alt="Letra a pantalla completa con pinyin">
+  <img src="screenshots/mini.jpg" width="24%" alt="Modo mini">
+  <img src="screenshots/settings.jpg" width="24%" alt="Ajustes de chino con colores HSK">
 </p>
 
-<p align="center"><sub>Japonés con romaji · Chino con pinyin · Ajustes</sub></p>
+<p align="center"><sub>Ventana flotante · Letra a pantalla completa · Modo mini · Ajustes de chino</sub></p>
 
 ## Funciones
 
