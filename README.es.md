@@ -40,8 +40,7 @@ window over any app, with pinyin for Chinese and romanization for Japanese and K
 - **Chino:** pinyin por palabras (lecturas correctas en caracteres con varias pronunciaciones), con marcas de tono,
   números o sin tonos; escritura simplificada o tradicional; colores por nivel HSK 3.0.
 - **Japonés:** romaji Hepburn, con lectura de los kanji. **Coreano:** Romanización Revisada.
-- Varias fuentes de letras que puedes activar o desactivar, un botón ↻ para descartar letras erróneas y probar la
-  siguiente, y una lista de apps de música que ignorar.
+- Un botón ↻ para descartar letras erróneas y probar la siguiente, y una lista de apps de música que ignorar.
 - Material 3, con modo claro y oscuro según el sistema.
 - Disponible en inglés, español, catalán, francés, alemán, portugués, italiano, chino (simplificado y
   tradicional), japonés y coreano.
@@ -68,24 +67,22 @@ rato, quita la restricción de batería a la app: algunos fabricantes cierran lo
 ## Privacidad
 
 Sin cuentas, anuncios ni analíticas. Para buscar letras, la app envía el **título y el artista** de la canción (o lo
-que escribas en el buscador) a los servicios de letras configurados (ver abajo). Las favoritas, las canciones recientes
+que escribas en el buscador) al servicio de letras (ver abajo). Las favoritas, las canciones recientes
 y los ajustes de sincronización se guardan **solo en tu dispositivo** y puedes borrarlos o desactivarlos en Ajustes.
 De forma opcional, como mucho una vez al día, la app consulta a GitHub el número de la última versión para avisarte de
-las actualizaciones (no se envía ningún dato personal); puedes desactivarlo en Ajustes. Nada más sale de tu
+las actualizaciones (no se envía ningún dato personal); puedes desactivarlo en Ajustes. Esta comprobación no existe en la versión de Google Play. Nada más sale de tu
 dispositivo.
 
 ## Aviso sobre las letras
 
-PinyinLyrics **no incluye ni aloja letras**: las consulta, a petición del usuario, en servicios de terceros y las
+PinyinLyrics **no incluye ni aloja letras**: las consulta, a petición del usuario, en un servicio de terceros y las
 muestra en su dispositivo. Las letras tienen copyright de sus titulares.
 
 | Fuente | Estado |
 |---|---|
 | [LRCLIB](https://lrclib.net) | Servicio abierto y comunitario. |
-| NetEase Cloud Music, Kugou Music | Endpoints **no oficiales**, usados sin acuerdo con esos servicios; pueden dejar de funcionar. |
-| Lyrics.ovh | Servicio de terceros, solo texto. |
 
-Este proyecto no está afiliado a ninguno de estos servicios ni a ninguna app de música.
+Este proyecto no está afiliado a LRCLIB ni a ninguna app de música.
 
 ## Licencias de terceros
 

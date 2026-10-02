@@ -37,8 +37,7 @@ romanization for Japanese and Korean.
 - **Chinese:** pinyin by word (correct readings for characters with several pronunciations), with tone marks,
   numbers or no tones; simplified or traditional script; colors by HSK 3.0 level.
 - **Japanese:** Hepburn romaji, with kanji readings. **Korean:** Revised Romanization.
-- Several lyrics sources you can enable or disable, a ↻ button to discard wrong lyrics and try the next match, and a
-  list of music apps to ignore.
+- A ↻ button to discard wrong lyrics and try the next match, and a list of music apps to ignore.
 - Material 3, with light and dark mode following the system.
 - Available in English, Spanish, Catalan, French, German, Portuguese, Italian, Chinese (Simplified and
   Traditional), Japanese and Korean.
@@ -66,23 +65,21 @@ remove the battery restriction for the app: some manufacturers kill background s
 ## Privacy
 
 No accounts, ads or analytics. To look up lyrics, the app sends the song's **title and artist** (or what you type in
-the search box) to the configured lyrics services (see below). Favorites, recent songs and sync adjustments are stored
+the search box) to the lyrics service (see below). Favorites, recent songs and sync adjustments are stored
 **only on your device** and can be cleared or turned off in Settings. Optionally, once a day at most, the app asks
 GitHub for the latest release number to tell you about updates (no personal data is sent); you can turn this off in
-Settings. Nothing else leaves your device.
+Settings. This check is not present in the Google Play version. Nothing else leaves your device.
 
 ## About the lyrics
 
-PinyinLyrics **does not include or host any lyrics**: at the user's request it looks them up on third-party
-services and shows them on the user's device. Lyrics are copyrighted by their owners.
+PinyinLyrics **does not include or host any lyrics**: at the user's request it looks them up on a third-party
+service and shows them on the user's device. Lyrics are copyrighted by their owners.
 
 | Source | Status |
 |---|---|
 | [LRCLIB](https://lrclib.net) | Open, community-run service. |
-| NetEase Cloud Music, Kugou Music | **Unofficial** endpoints, used without any agreement with those services; they may stop working. |
-| Lyrics.ovh | Third-party service, text only. |
 
-This project is not affiliated with any of these services or with any music app.
+This project is not affiliated with LRCLIB or with any music app.
 
 ## Third-party licenses
 
