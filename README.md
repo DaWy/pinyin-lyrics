@@ -37,7 +37,17 @@ romanization for Japanese and Korean.
   and restore) and a list of **recently played** songs on the home screen.
 - **Chinese:** pinyin by word (correct readings for characters with several pronunciations), with tone marks,
   numbers or no tones; simplified or traditional script; colors by HSK 3.0 level.
-- **Japanese:** Hepburn romaji, with kanji readings. **Korean:** Revised Romanization.
+- **Japanese:** Hepburn romaji (or hiragana), with kanji readings. **Korean:** Revised Romanization.
+- **Follow along:** the current line is enlarged with an animation. Scroll freely and the highlight returns by itself
+  5 s later; auto-scroll can be turned off with a button. **Tap a line to jump** to that moment in the song.
+- **Playback controls** (previous, pause, next) in the floating window, and a **global sync offset** on top of the
+  per-song one.
+- **Aligned pinyin:** pinyin is drawn above each character. **Practice mode** hides it for HSK words up to the level you
+  choose, so you only read what you still need.
+- **More writing systems:** zhuyin (bopomofo) and jyutping (Cantonese) for Chinese, hiragana instead of romaji for
+  Japanese. The language is detected per song.
+- **Paste or import your own lyrics** (text or `.lrc`) when LRCLIB doesn't have them, **share a line as an image**, and a
+  **Quick Settings tile** to open and close the window.
 - A ↻ button to discard wrong lyrics and try the next match, and a list of music apps to ignore.
 - Material 3, with light and dark mode following the system.
 - Available in English, Spanish, Catalan, French, German, Portuguese, Italian, Chinese (Simplified and

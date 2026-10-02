@@ -40,7 +40,18 @@ window over any app, with pinyin for Chinese and romanization for Japanese and K
   de seguridad y restauración) y lista de **canciones recientes** en la pantalla principal.
 - **Chino:** pinyin por palabras (lecturas correctas en caracteres con varias pronunciaciones), con marcas de tono,
   números o sin tonos; escritura simplificada o tradicional; colores por nivel HSK 3.0.
-- **Japonés:** romaji Hepburn, con lectura de los kanji. **Coreano:** Romanización Revisada.
+- **Japonés:** romaji Hepburn (o hiragana), con lectura de los kanji. **Coreano:** Romanización Revisada.
+- **Seguir la canción:** la línea actual se amplía con una animación. Haz scroll con libertad y el resaltado vuelve solo
+  5 s después; el desplazamiento automático se puede desactivar con un botón. **Toca una línea para saltar** a ese
+  momento de la canción.
+- **Controles de reproducción** (anterior, pausa, siguiente) en la ventana flotante y **desfase global de sincronización**
+  además del de cada canción.
+- **Pinyin alineado:** el pinyin se dibuja sobre cada carácter. El **modo práctica** lo oculta en el vocabulario HSK hasta
+  el nivel que elijas, para leer solo lo que aún necesitas.
+- **Más sistemas de escritura:** zhuyin (bopomofo) y jyutping (cantonés) para chino, hiragana en lugar de romaji para
+  japonés. El idioma se detecta por canción.
+- **Pega o importa tu propia letra** (texto o `.lrc`) cuando LRCLIB no la tiene, **comparte una línea como imagen** y un
+  **mosaico de Ajustes rápidos** para abrir y cerrar la ventana.
 - Un botón ↻ para descartar letras erróneas y probar la siguiente, y una lista de apps de música que ignorar.
 - Material 3, con modo claro y oscuro según el sistema.
 - Disponible en inglés, español, catalán, francés, alemán, portugués, italiano, chino (simplificado y

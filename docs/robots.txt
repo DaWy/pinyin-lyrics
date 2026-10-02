@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dawy.github.io/pinyin-lyrics/sitemap.xml
