@@ -9,20 +9,28 @@
 🌐 [Website](https://pinyin-lyrics.dawei.es/) · 🧪 [Join the beta](https://groups.google.com/g/pinyinlyrics-testing)
 
 **PinyinLyrics** is a free Android app that detects the song playing on your phone (YouTube Music, Spotify,
-etc.), looks up its lyrics and shows them in a **floating window over any app**, with **pinyin** for Chinese and
+etc.; free Spotify too), looks up its lyrics and shows them in a **floating window over any app**, with **pinyin** for Chinese and
 romanization for Japanese and Korean.
 
 <p align="center">
-  <img src="screenshots/floating.jpg" width="24%" alt="Floating lyrics with pinyin over the home screen">
-  <img src="screenshots/fullscreen.jpg" width="24%" alt="Full-screen lyrics with pinyin">
-  <img src="screenshots/mini.jpg" width="24%" alt="Mini mode">
-  <img src="screenshots/settings.jpg" width="24%" alt="Chinese settings with HSK colors">
+  <img src="screenshots/home.jpg" width="24%" alt="Home screen with the Now playing card, search bar and Recents and Favorites tabs">
+  <img src="screenshots/floating.jpg" width="24%" alt="Floating lyrics window with pinyin over a music player">
+  <img src="screenshots/fullscreen.jpg" width="24%" alt="Full-screen lyrics with pinyin and player controls">
+  <img src="screenshots/wordcard.jpg" width="24%" alt="Word card for 对不起 with pinyin, meaning, HSK level and character breakdown">
 </p>
 
-<p align="center"><sub>Floating window · Full-screen lyrics · Mini mode · Chinese settings (screenshots shown with the Spanish interface)</sub></p>
+<p align="center"><sub>Home screen · Floating window · Full-screen lyrics · Word card (screenshots shown with the Spanish interface)</sub></p>
 
 ## Features
 
+- **New home screen:** a "Now playing" card with blurred cover art, the title with pinyin above each character,
+  progress and the current lyric line; a button with the player's icon to jump back to it; Recents and Favorites in
+  tabs. If a song has no lyrics, it offers to search for them or paste your own.
+- **Word card:** tap a Chinese character in the lyrics to see the word with pinyin, meaning (CC-CEDICT), HSK level and
+  a character-by-character breakdown; copy it or open your dictionary app.
+- **Beginner's guide** on first launch (and in the menu).
+- **Works with your player:** Spotify (also the free version: it detects ads and doesn't look up lyrics for them),
+  YouTube Music, Metrolist and more.
 - Automatic detection of the song that is playing. It always tries to find **synced lyrics** first, and falls back to
   plain text only if there are none. A badge shows whether the lyrics are synced, and you can nudge the timing
   ±0.5 s per song.
@@ -46,7 +54,7 @@ romanization for Japanese and Korean.
   choose, so you only read what you still need.
 - **More writing systems:** zhuyin (bopomofo) and jyutping (Cantonese) for Chinese, hiragana instead of romaji for
   Japanese. The language is detected per song.
-- **Paste or import your own lyrics** (text or `.lrc`) when LRCLIB doesn't have them, **share a line as an image**, and a
+- **Paste or import your own lyrics** (text or `.lrc`) when neither source has them, **share a line as an image**, and a
   **Quick Settings tile** to open and close the window.
 - A ↻ button to discard wrong lyrics and try the next match, and a list of music apps to ignore.
 - Material 3, with light and dark mode following the system.
@@ -76,21 +84,22 @@ remove the battery restriction for the app: some manufacturers kill background s
 ## Privacy
 
 No accounts, ads or analytics. To look up lyrics, the app sends the song's **title and artist** (or what you type in
-the search box) to the lyrics service (see below). Favorites, recent songs and sync adjustments are stored
+the search box) to the lyrics services (see below). Favorites, recent songs and sync adjustments are stored
 **only on your device** and can be cleared or turned off in Settings. Optionally, once a day at most, the app asks
 GitHub for the latest release number to tell you about updates (no personal data is sent); you can turn this off in
 Settings. This check is not present in the Google Play version. Nothing else leaves your device.
 
 ## About the lyrics
 
-PinyinLyrics **does not include or host any lyrics**: at the user's request it looks them up on a third-party
-service and shows them on the user's device. Lyrics are copyrighted by their owners.
+PinyinLyrics **does not include or host any lyrics**: at the user's request it looks them up on third-party
+services and shows them on the user's device. Lyrics are copyrighted by their owners.
 
 | Source | Status |
 |---|---|
-| [LRCLIB](https://lrclib.net) | Open, community-run service. |
+| [LRCLIB](https://lrclib.net) | Main source, with synced lyrics. Open, community-run service. |
+| [lyrics.ovh](https://lyrics.ovh) | Second source, unsynced lyrics only; queried after LRCLIB. |
 
-This project is not affiliated with LRCLIB or with any music app.
+This project is not affiliated with LRCLIB, lyrics.ovh or any music app.
 
 ## Third-party licenses
 

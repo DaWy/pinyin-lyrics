@@ -9,23 +9,31 @@
 🌐 [Sitio web](https://pinyin-lyrics.dawei.es/es/) · 🧪 [Únete a la beta](https://groups.google.com/g/pinyinlyrics-testing)
 
 **PinyinLyrics** es una app gratuita para Android que detecta la canción que suena en tu móvil (YouTube Music,
-Spotify, etc.), busca su letra y la muestra en una **ventana flotante sobre cualquier app**, con **pinyin** para el
+Spotify, etc.; también la versión gratuita de Spotify), busca su letra y la muestra en una **ventana flotante sobre cualquier app**, con **pinyin** para el
 chino y romanización para japonés y coreano.
 
 *A free Android app that detects the song playing on your phone, fetches its lyrics and shows them in a floating
 window over any app, with pinyin for Chinese and romanization for Japanese and Korean.*
 
 <p align="center">
-  <img src="screenshots/floating.jpg" width="24%" alt="Letra con pinyin flotando sobre el escritorio">
-  <img src="screenshots/fullscreen.jpg" width="24%" alt="Letra a pantalla completa con pinyin">
-  <img src="screenshots/mini.jpg" width="24%" alt="Modo mini">
-  <img src="screenshots/settings.jpg" width="24%" alt="Ajustes de chino con colores HSK">
+  <img src="screenshots/home.jpg" width="24%" alt="Pantalla principal con la tarjeta Ahora suena, la barra de búsqueda y las pestañas Recientes y Favoritas">
+  <img src="screenshots/floating.jpg" width="24%" alt="Ventana flotante con la letra y pinyin sobre un reproductor de música">
+  <img src="screenshots/fullscreen.jpg" width="24%" alt="Letra a pantalla completa con pinyin y controles del reproductor">
+  <img src="screenshots/wordcard.jpg" width="24%" alt="Ficha de la palabra 对不起 con pinyin, significado, nivel HSK y desglose por caracteres">
 </p>
 
-<p align="center"><sub>Ventana flotante · Letra a pantalla completa · Modo mini · Ajustes de chino</sub></p>
+<p align="center"><sub>Pantalla principal · Ventana flotante · Letra a pantalla completa · Ficha de palabra</sub></p>
 
 ## Funciones
 
+- **Nueva pantalla principal:** tarjeta "Ahora suena" con la carátula difuminada, el título con pinyin sobre cada
+  carácter, el progreso y la línea actual de la letra; un botón con el icono del reproductor para volver a él; Recientes
+  y Favoritas en pestañas. Si una canción no tiene letra, ofrece buscarla o pegarla.
+- **Ficha de palabra:** toca un carácter chino en la letra y verás la palabra con pinyin, significado (CC-CEDICT), nivel
+  HSK y el desglose carácter a carácter; cópiala o abre tu app de diccionario.
+- **Guía para principiantes** en el primer arranque (y en el menú).
+- **Funciona con tu reproductor:** Spotify (también la versión gratuita: detecta los anuncios y no busca letra para
+  ellos), YouTube Music, Metrolist y más.
 - Detección automática de la canción que suena. Siempre intenta encontrar primero la **letra sincronizada** y solo
   usa texto plano si no hay ninguna. Una etiqueta indica si la letra está sincronizada, y puedes ajustar el desfase
   ±0,5 s por canción.
@@ -50,7 +58,7 @@ window over any app, with pinyin for Chinese and romanization for Japanese and K
   el nivel que elijas, para leer solo lo que aún necesitas.
 - **Más sistemas de escritura:** zhuyin (bopomofo) y jyutping (cantonés) para chino, hiragana en lugar de romaji para
   japonés. El idioma se detecta por canción.
-- **Pega o importa tu propia letra** (texto o `.lrc`) cuando LRCLIB no la tiene, **comparte una línea como imagen** y un
+- **Pega o importa tu propia letra** (texto o `.lrc`) cuando ninguna fuente la tiene, **comparte una línea como imagen** y un
   **mosaico de Ajustes rápidos** para abrir y cerrar la ventana.
 - Un botón ↻ para descartar letras erróneas y probar la siguiente, y una lista de apps de música que ignorar.
 - Material 3, con modo claro y oscuro según el sistema.
@@ -79,7 +87,7 @@ rato, quita la restricción de batería a la app: algunos fabricantes cierran lo
 ## Privacidad
 
 Sin cuentas, anuncios ni analíticas. Para buscar letras, la app envía el **título y el artista** de la canción (o lo
-que escribas en el buscador) al servicio de letras (ver abajo). Las favoritas, las canciones recientes
+que escribas en el buscador) a los servicios de letras (ver abajo). Las favoritas, las canciones recientes
 y los ajustes de sincronización se guardan **solo en tu dispositivo** y puedes borrarlos o desactivarlos en Ajustes.
 De forma opcional, como mucho una vez al día, la app consulta a GitHub el número de la última versión para avisarte de
 las actualizaciones (no se envía ningún dato personal); puedes desactivarlo en Ajustes. Esta comprobación no existe en la versión de Google Play. Nada más sale de tu
@@ -87,14 +95,15 @@ dispositivo.
 
 ## Aviso sobre las letras
 
-PinyinLyrics **no incluye ni aloja letras**: las consulta, a petición del usuario, en un servicio de terceros y las
+PinyinLyrics **no incluye ni aloja letras**: las consulta, a petición del usuario, en servicios de terceros y las
 muestra en su dispositivo. Las letras tienen copyright de sus titulares.
 
 | Fuente | Estado |
 |---|---|
-| [LRCLIB](https://lrclib.net) | Servicio abierto y comunitario. |
+| [LRCLIB](https://lrclib.net) | Fuente principal, con letras sincronizadas. Servicio abierto y comunitario. |
+| [lyrics.ovh](https://lyrics.ovh) | Segunda fuente, solo letras sin sincronizar; se consulta después de LRCLIB. |
 
-Este proyecto no está afiliado a LRCLIB ni a ninguna app de música.
+Este proyecto no está afiliado a LRCLIB, a lyrics.ovh ni a ninguna app de música.
 
 ## Licencias de terceros
 
