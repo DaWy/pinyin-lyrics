@@ -7,7 +7,7 @@ permalink: /privacy-policy/
 
 # Privacy Policy — PinyinLyrics
 
-_Last updated: 2026-10-02_
+_Last updated: 2026-10-04_
 
 PinyinLyrics shows lyrics with pinyin (or romaji / romanization) in a floating window over the music app you are using. It has no accounts, no ads and no analytics, and the developer runs no server.
 
@@ -17,7 +17,7 @@ PinyinLyrics shows lyrics with pinyin (or romaji / romanization) in a floating w
 - **Notifications**: used to show the "PinyinLyrics is active" foreground-service notification.
 
 ## What leaves your device
-To find lyrics, the **song title, artist, album and duration** are sent to the lyrics service LRCLIB (lrclib.net). Its own privacy policy applies, and it can see your IP address as for any web request. Nothing else is sent.
+To find lyrics, the **song title, artist, album and duration** are sent to the lyrics services LRCLIB (lrclib.net) and lyrics.ovh (api.lyrics.ovh). Their own privacy policies apply, and they can see your IP address as for any web request. Nothing else is sent.
 
 Optionally (not in the Google Play version), the GitHub build can ask api.github.com for the latest version number once a day.
 
@@ -34,7 +34,7 @@ masterplanelles@gmail.com
 
 # Política de privacidad — PinyinLyrics
 
-_Última actualización: 2026-10-02_
+_Última actualización: 2026-10-04_
 
 PinyinLyrics muestra letras con pinyin (o romaji / romanización) en una ventana flotante sobre tu app de música. No tiene cuentas, anuncios ni analítica, y el desarrollador no gestiona ningún servidor.
 
@@ -44,7 +44,7 @@ PinyinLyrics muestra letras con pinyin (o romaji / romanización) en una ventana
 - **Notificaciones**: para mostrar el aviso "PinyinLyrics está activo" del servicio en primer plano.
 
 ## Qué sale de tu dispositivo
-Para buscar la letra se envían el **título, artista, álbum y duración** de la canción al servicio de letras LRCLIB (lrclib.net). Se aplica su propia política de privacidad y ve tu dirección IP, como en cualquier petición web. No se envía nada más.
+Para buscar la letra se envían el **título, artista, álbum y duración** de la canción a los servicios de letras LRCLIB (lrclib.net) y lyrics.ovh (api.lyrics.ovh). Se aplican sus propias políticas de privacidad y ven tu dirección IP, como en cualquier petición web. No se envía nada más.
 
 Opcionalmente (no en la versión de Google Play), la versión de GitHub puede consultar a api.github.com el número de la última versión una vez al día.
 
