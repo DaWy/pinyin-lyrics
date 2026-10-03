@@ -6,7 +6,7 @@
 
 🇬🇧 [English](README.md) · 🇪🇸 **Español**
 
-🌐 [Sitio web](https://dawy.github.io/pinyin-lyrics/es/) · 🧪 [Únete a la beta](https://groups.google.com/g/pinyinlyrics-testing)
+🌐 [Sitio web](https://pinyin-lyrics.dawei.es/es/) · 🧪 [Únete a la beta](https://groups.google.com/g/pinyinlyrics-testing)
 
 **PinyinLyrics** es una app gratuita para Android que detecta la canción que suena en tu móvil (YouTube Music,
 Spotify, etc.), busca su letra y la muestra en una **ventana flotante sobre cualquier app**, con **pinyin** para el

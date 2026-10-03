@@ -6,7 +6,7 @@
 
 🇬🇧 **English** · 🇪🇸 [Español](README.es.md)
 
-🌐 [Website](https://dawy.github.io/pinyin-lyrics/) · 🧪 [Join the beta](https://groups.google.com/g/pinyinlyrics-testing)
+🌐 [Website](https://pinyin-lyrics.dawei.es/) · 🧪 [Join the beta](https://groups.google.com/g/pinyinlyrics-testing)
 
 **PinyinLyrics** is a free Android app that detects the song playing on your phone (YouTube Music, Spotify,
 etc.), looks up its lyrics and shows them in a **floating window over any app**, with **pinyin** for Chinese and
