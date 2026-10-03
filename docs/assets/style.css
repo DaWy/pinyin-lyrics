@@ -22,6 +22,9 @@ h1{font-size:clamp(2.2rem,6vw,3.4rem);margin:18px 0 6px;letter-spacing:-.02em;li
 .lead{color:var(--muted);max-width:640px;margin:0 auto}
 .btn{display:inline-block;background:var(--yellow);color:#1b2a44;font-weight:700;text-decoration:none;border-radius:999px;padding:11px 22px}
 .btn:hover{filter:brightness(1.08)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.dlnote{color:var(--muted);font-size:.9rem;margin:6px 0 0}
+.dlnote a{color:var(--muted)}
 .btn.ghost{background:transparent;color:var(--yellow);border:1px solid var(--yellow)}
 .cta{margin:24px 0 0}
 .shots{display:flex;gap:22px;justify-content:center;justify-content:safe center;align-items:flex-start;padding:44px 20px 10px;overflow-x:auto;scroll-snap-type:x mandatory}
