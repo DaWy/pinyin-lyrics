@@ -27,12 +27,12 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/home.jpg" width="24%" alt="Pantalla principal con la tarjeta Ahora suena, la barra de búsqueda y las pestañas Recientes y Favoritas">
-  <img src="screenshots/floating.jpg" width="24%" alt="Ventana flotante con la letra y pinyin sobre un reproductor de música">
-  <img src="screenshots/fullscreen.jpg" width="24%" alt="Letra a pantalla completa con pinyin y controles del reproductor">
-  <img src="screenshots/wordcard.jpg" width="24%" alt="Ficha de la palabra 对不起 con pinyin, significado, nivel HSK y desglose por caracteres">
+  <img src="screenshots/en/home.jpg" width="24%" alt="Pantalla principal con la tarjeta Ahora suena, la barra de búsqueda y las pestañas Recientes y Favoritas">
+  <img src="screenshots/en/floating.jpg" width="24%" alt="Ventana flotante con la letra y pinyin sobre un reproductor de música">
+  <img src="screenshots/en/fullscreen.jpg" width="24%" alt="Letra a pantalla completa con pinyin y controles del reproductor">
+  <img src="screenshots/en/wordcard.jpg" width="24%" alt="Ficha de la palabra 勇敢 con pinyin, significado, nivel HSK y desglose por caracteres">
 </p>
-<p align="center"><sub>Pantalla principal · Ventana flotante · Letra a pantalla completa · Ficha de palabra</sub></p>
+<p align="center"><sub>Pantalla principal · Ventana flotante · Letra a pantalla completa · Ficha de palabra <i>(interfaz en inglés)</i></sub></p>
 
 **PinyinLyrics** es una app gratuita para Android que detecta la canción que suena en tu móvil (YouTube Music,
 Spotify, etc.; también la versión gratuita de Spotify), busca su letra y la muestra **sobre cualquier app**, con
@@ -59,7 +59,7 @@ consultarla, colorea la letra por nivel HSK u oculta el pinyin que ya sabes.
 <details open>
 <summary><b>🎧 La letra sigue a tu música</b></summary>
 
-<img src="screenshots/features/feat-sync.png" width="260" align="right" alt="Letra sincronizada a pantalla completa: la línea actual resaltada y los controles del reproductor debajo">
+<img src="screenshots/en/features/feat-sync.png" width="260" align="right" alt="Letra sincronizada a pantalla completa: la línea actual resaltada y los controles del reproductor debajo">
 
 - Detección automática de la canción que suena en **Spotify** (también la versión gratuita: detecta los anuncios y no
   busca letra para ellos), **YouTube Music**, **Metrolist** y más.
@@ -78,7 +78,7 @@ consultarla, colorea la letra por nivel HSK u oculta el pinyin que ya sabes.
 <details open>
 <summary><b>🈶 Chino, japonés y coreano</b></summary>
 
-<img src="screenshots/features/feat-languages.png" width="220" align="right" alt="Ajustes de chino: escritura (como viene en la letra, simplificado o tradicional) y estilo del pinyin (marcas de tono, números o sin tonos)">
+<img src="screenshots/en/features/feat-languages.png" width="220" align="right" alt="Ajustes de chino: escritura (como viene en la letra, simplificado o tradicional) y sistema de romanización (pinyin, zhuyin o jyutping)">
 
 - **Chino:** pinyin por palabras (lecturas correctas en caracteres con varias pronunciaciones), con marcas de tono,
   números o sin tonos; escritura simplificada o tradicional; **zhuyin** (bopomofo) y **jyutping** (cantonés).
@@ -87,13 +87,21 @@ consultarla, colorea la letra por nivel HSK u oculta el pinyin que ya sabes.
 - El idioma se detecta por canción.
 
 <br clear="right">
+<br>
+
+<p align="center">
+  <img src="screenshots/en/features/feat-japanese.png" width="280" alt="Letra en japonés con romaji Hepburn sobre cada línea; la línea actual resaltada">
+  &nbsp;
+  <img src="screenshots/en/features/feat-korean.png" width="280" alt="Letra en coreano con romanización revisada sobre cada línea; la línea actual resaltada">
+</p>
+<p align="center"><sub>Japonés (romaji) · Coreano (romanización revisada)</sub></p>
 
 </details>
 
 <details open>
 <summary><b>📖 Aprende mientras escuchas</b></summary>
 
-<img src="screenshots/features/feat-wordcard.png" width="260" align="right" alt="Ficha de la palabra 对不起: pinyin, significado, HSK 1 y el significado de cada carácter">
+<img src="screenshots/en/features/feat-wordcard.png" width="260" align="right" alt="Ficha de la palabra 勇敢: pinyin, significado, HSK 4 y el significado de cada carácter">
 
 - **Pinyin alineado:** se dibuja sobre cada carácter, no en una línea aparte.
 - **Ficha de palabra:** toca un carácter chino en la letra y verás la palabra con pinyin, significado (CC-CEDICT),
@@ -119,9 +127,9 @@ consultarla, colorea la letra por nivel HSK u oculta el pinyin que ya sabes.
 - **Pantalla principal:** tarjeta "Ahora suena" con la carátula difuminada y la línea actual, más Recientes y Favoritas.
 
 <p align="center">
-  <img src="screenshots/features/feat-floating.png" width="300" alt="Ventana flotante con letra sincronizada, pinyin y controles de reproducción sobre un reproductor de música">
+  <img src="screenshots/en/features/feat-floating.png" width="300" alt="Ventana flotante con letra sincronizada, pinyin y controles de reproducción sobre un reproductor de música">
   &nbsp;
-  <img src="screenshots/features/feat-mini.png" width="300" alt="Modo mini: la línea actual y la siguiente sobre un fondo casi transparente">
+  <img src="screenshots/en/features/feat-mini.png" width="300" alt="Modo mini: la línea actual y la siguiente sobre un fondo casi transparente">
 </p>
 <p align="center"><sub>Ventana flotante · Modo mini</sub></p>
 
@@ -132,7 +140,7 @@ consultarla, colorea la letra por nivel HSK u oculta el pinyin que ya sabes.
 <details open>
 <summary><b>🛠️ Búsqueda, favoritas y correcciones</b></summary>
 
-<img src="screenshots/features/feat-library.png" width="260" align="right" alt="Pestañas Recientes y Favoritas de la pantalla principal">
+<img src="screenshots/en/features/feat-library.png" width="260" align="right" alt="Pestañas Recientes y Favoritas de la pantalla principal">
 
 - **Buscador de letras** por título o artista, con scroll infinito.
 - **Favoritas** (guardadas en tu móvil, con copia de seguridad y restauración) y **canciones recientes**.
