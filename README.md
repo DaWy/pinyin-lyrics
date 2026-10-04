@@ -27,12 +27,12 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/home.jpg" width="24%" alt="Home screen with the Now playing card, search bar and Recents and Favorites tabs">
-  <img src="screenshots/floating.jpg" width="24%" alt="Floating lyrics window with pinyin over a music player">
-  <img src="screenshots/fullscreen.jpg" width="24%" alt="Full-screen lyrics with pinyin and player controls">
-  <img src="screenshots/wordcard.jpg" width="24%" alt="Word card for 对不起 with pinyin, meaning, HSK level and character breakdown">
+  <img src="screenshots/en/home.jpg" width="24%" alt="Home screen with the Now playing card, search bar and Recents and Favorites tabs">
+  <img src="screenshots/en/floating.jpg" width="24%" alt="Floating lyrics window with pinyin over a music player">
+  <img src="screenshots/en/fullscreen.jpg" width="24%" alt="Full-screen lyrics with pinyin and player controls">
+  <img src="screenshots/en/wordcard.jpg" width="24%" alt="Word card for 快乐 with pinyin, meaning, HSK level and character breakdown">
 </p>
-<p align="center"><sub>Home screen · Floating window · Full-screen lyrics · Word card <i>(Spanish interface)</i></sub></p>
+<p align="center"><sub>Home screen · Floating window · Full-screen lyrics · Word card</sub></p>
 
 **PinyinLyrics** is a free Android app that detects the song playing on your phone (YouTube Music, Spotify,
 etc.; free Spotify too), looks up its lyrics and shows them **over any app**, with **pinyin** for Chinese and
@@ -59,7 +59,7 @@ or hide the pinyin you already know.
 <details open>
 <summary><b>🎧 Lyrics that follow your music</b></summary>
 
-<img src="screenshots/features/feat-sync.png" width="260" align="right" alt="Synced full-screen lyrics: the current line is highlighted, with player controls below">
+<img src="screenshots/en/features/feat-sync.png" width="260" align="right" alt="Synced full-screen lyrics: the current line is highlighted, with player controls below">
 
 - Automatic detection of the song that is playing in **Spotify** (also the free version: it detects ads and doesn't
   look up lyrics for them), **YouTube Music**, **Metrolist** and more.
@@ -77,7 +77,7 @@ or hide the pinyin you already know.
 <details open>
 <summary><b>🈶 Chinese, Japanese and Korean</b></summary>
 
-<img src="screenshots/features/feat-languages.png" width="220" align="right" alt="Chinese settings: script (as in the lyrics, simplified or traditional) and pinyin style (tone marks, numbers or no tones)">
+<img src="screenshots/en/features/feat-languages.png" width="220" align="right" alt="Chinese settings: script (as in the lyrics, simplified or traditional) and romanization system (pinyin, zhuyin or jyutping)">
 
 - **Chinese:** pinyin by word (correct readings for characters with several pronunciations), with tone marks,
   numbers or no tones; simplified or traditional script; **zhuyin** (bopomofo) and **jyutping** (Cantonese).
@@ -86,13 +86,21 @@ or hide the pinyin you already know.
 - The language is detected per song.
 
 <br clear="right">
+<br>
+
+<p align="center">
+  <img src="screenshots/en/features/feat-japanese.png" width="280" alt="Japanese lyrics with Hepburn romaji above each line; the current line is highlighted">
+  &nbsp;
+  <img src="screenshots/en/features/feat-korean.png" width="280" alt="Korean lyrics with Revised Romanization above each line; the current line is highlighted">
+</p>
+<p align="center"><sub>Japanese (romaji) · Korean (Revised Romanization)</sub></p>
 
 </details>
 
 <details open>
 <summary><b>📖 Learn while you listen</b></summary>
 
-<img src="screenshots/features/feat-wordcard.png" width="260" align="right" alt="Word card for 对不起: pinyin, meaning, HSK 1 and the meaning of each character">
+<img src="screenshots/en/features/feat-wordcard.png" width="260" align="right" alt="Word card for 快乐: pinyin, meaning, HSK 2 and the meaning of each character">
 
 - **Aligned pinyin:** drawn above each character, not on a separate line.
 - **Word card:** tap a Chinese character to see the word with pinyin, meaning (CC-CEDICT), HSK level and a
@@ -118,9 +126,9 @@ or hide the pinyin you already know.
 - **Home screen:** a "Now playing" card with blurred cover art and the current line, plus Recents and Favorites.
 
 <p align="center">
-  <img src="screenshots/features/feat-floating.png" width="300" alt="Floating window with synced pinyin lyrics and playback controls over a music player">
+  <img src="screenshots/en/features/feat-floating.png" width="300" alt="Floating window with synced pinyin lyrics and playback controls over a music player">
   &nbsp;
-  <img src="screenshots/features/feat-mini.png" width="300" alt="Mini mode: the current and next line over a nearly transparent background">
+  <img src="screenshots/en/features/feat-mini.png" width="300" alt="Mini mode: the current and next line over a nearly transparent background">
 </p>
 <p align="center"><sub>Floating window · Mini mode</sub></p>
 
@@ -131,7 +139,7 @@ or hide the pinyin you already know.
 <details open>
 <summary><b>🛠️ Search, favorites and fixes</b></summary>
 
-<img src="screenshots/features/feat-library.png" width="260" align="right" alt="Recents and Favorites tabs on the home screen">
+<img src="screenshots/en/features/feat-library.png" width="260" align="right" alt="Recents and Favorites tabs on the home screen">
 
 - **Lyrics search** by title or artist, with endless scrolling.
 - **Favorites** (saved on your phone, with backup and restore) and **recently played** songs.
