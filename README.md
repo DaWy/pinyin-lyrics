@@ -30,7 +30,7 @@
   <img src="screenshots/en/home.jpg" width="24%" alt="Home screen with the Now playing card, search bar and Recents and Favorites tabs">
   <img src="screenshots/en/floating.jpg" width="24%" alt="Floating lyrics window with pinyin over a music player">
   <img src="screenshots/en/fullscreen.jpg" width="24%" alt="Full-screen lyrics with pinyin and player controls">
-  <img src="screenshots/en/wordcard.jpg" width="24%" alt="Word card for 快乐 with pinyin, meaning, HSK level and character breakdown">
+  <img src="screenshots/en/wordcard.jpg" width="24%" alt="Word card for 勇敢 with pinyin, meaning, HSK level and character breakdown">
 </p>
 <p align="center"><sub>Home screen · Floating window · Full-screen lyrics · Word card</sub></p>
 
@@ -100,7 +100,7 @@ or hide the pinyin you already know.
 <details open>
 <summary><b>📖 Learn while you listen</b></summary>
 
-<img src="screenshots/en/features/feat-wordcard.png" width="260" align="right" alt="Word card for 快乐: pinyin, meaning, HSK 2 and the meaning of each character">
+<img src="screenshots/en/features/feat-wordcard.png" width="260" align="right" alt="Word card for 勇敢: pinyin, meaning, HSK 4 and the meaning of each character">
 
 - **Aligned pinyin:** drawn above each character, not on a separate line.
 - **Word card:** tap a Chinese character to see the word with pinyin, meaning (CC-CEDICT), HSK level and a
