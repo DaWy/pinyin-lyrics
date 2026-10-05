@@ -17,7 +17,7 @@ PinyinLyrics shows lyrics with pinyin (or romaji / romanization) in a floating w
 - **Notifications**: used to show the "PinyinLyrics is active" foreground-service notification.
 
 ## What leaves your device
-To find lyrics, the **song title, artist, album and duration** are sent to the lyrics services LRCLIB (lrclib.net) and lyrics.ovh (api.lyrics.ovh). Their own privacy policies apply, and they can see your IP address as for any web request. Nothing else is sent.
+To find lyrics, the **song title, artist, album and duration** are sent to the lyrics services LRCLIB (lrclib.net) and lyrics.ovh (api.lyrics.ovh). Their own privacy policies apply, and they can see your IP address as for any web request. Nothing else is sent. Only if you tick "Also share these lyrics with LRCLIB" when adding lyrics manually, the lyrics you typed plus the song title, artist, album and duration are published to LRCLIB, where they become public.
 
 Optionally (not in the Google Play version), the GitHub build can ask api.github.com for the latest version number once a day.
 
@@ -47,7 +47,7 @@ PinyinLyrics muestra letras con pinyin (o romaji / romanización) en una ventana
 - **Notificaciones**: para mostrar el aviso "PinyinLyrics está activo" del servicio en primer plano.
 
 ## Qué sale de tu dispositivo
-Para buscar la letra se envían el **título, artista, álbum y duración** de la canción a los servicios de letras LRCLIB (lrclib.net) y lyrics.ovh (api.lyrics.ovh). Se aplican sus propias políticas de privacidad y ven tu dirección IP, como en cualquier petición web. No se envía nada más.
+Para buscar la letra se envían el **título, artista, álbum y duración** de la canción a los servicios de letras LRCLIB (lrclib.net) y lyrics.ovh (api.lyrics.ovh). Se aplican sus propias políticas de privacidad y ven tu dirección IP, como en cualquier petición web. No se envía nada más. Solo si marcas «Compartir también esta letra con LRCLIB» al añadir una letra a mano, la letra que escribiste junto con el título, artista, álbum y duración se publica en LRCLIB, donde pasa a ser pública.
 
 Opcionalmente (no en la versión de Google Play), la versión de GitHub puede consultar a api.github.com el número de la última versión una vez al día.
 
