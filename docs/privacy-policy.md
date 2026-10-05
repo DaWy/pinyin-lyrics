@@ -7,9 +7,9 @@ permalink: /privacy-policy/
 
 # Privacy Policy — PinyinLyrics
 
-_Last updated: 2026-10-04_
+_Last updated: 2026-10-05_
 
-PinyinLyrics shows lyrics with pinyin (or romaji / romanization) in a floating window over the music app you are using. It has no accounts, no ads and no analytics, and the developer runs no server.
+PinyinLyrics shows lyrics with pinyin (or romaji / romanization) in a floating window over the music app you are using. The app has no accounts, no ads and no analytics, and the developer runs no server.
 
 ## What the app accesses
 - **Notification access**: used only to read the active media session of your music apps (song title, artist, album, duration, playback position). The content of your notifications and messages is never read, stored or sent.
@@ -24,6 +24,9 @@ Optionally (not in the Google Play version), the GitHub build can ask api.github
 ## What stays on your device
 Settings, favorites, recent history (can be turned off in Settings) and cached lyrics are stored locally. Uninstalling the app removes them. The developer cannot access them.
 
+## Website
+This website uses GoatCounter (goatcounter.com), a privacy-friendly analytics service, to count visits. It sets no cookies, does not track you across sites and stores no personal data such as your IP address. It records only anonymous page views with the referring site, country, browser and screen size. The app itself does not use it.
+
 ## Children
 The app is not directed at children and collects no personal data.
 
@@ -34,9 +37,9 @@ masterplanelles@gmail.com
 
 # Política de privacidad — PinyinLyrics
 
-_Última actualización: 2026-10-04_
+_Última actualización: 2026-10-05_
 
-PinyinLyrics muestra letras con pinyin (o romaji / romanización) en una ventana flotante sobre tu app de música. No tiene cuentas, anuncios ni analítica, y el desarrollador no gestiona ningún servidor.
+PinyinLyrics muestra letras con pinyin (o romaji / romanización) en una ventana flotante sobre tu app de música. La app no tiene cuentas, anuncios ni analítica, y el desarrollador no gestiona ningún servidor.
 
 ## A qué accede la app
 - **Acceso a notificaciones**: solo para leer la sesión multimedia activa de tus apps de música (título, artista, álbum, duración, posición). El contenido de tus notificaciones y mensajes no se lee, guarda ni envía.
@@ -50,6 +53,9 @@ Opcionalmente (no en la versión de Google Play), la versión de GitHub puede co
 
 ## Qué se queda en tu dispositivo
 Ajustes, favoritos, historial reciente (se puede desactivar en Ajustes) y letras en caché se guardan localmente. Al desinstalar la app se eliminan. El desarrollador no tiene acceso a ellos.
+
+## Sitio web
+Este sitio web usa GoatCounter (goatcounter.com), un servicio de analítica respetuoso con la privacidad, para contar visitas. No usa cookies, no te sigue entre sitios y no guarda datos personales como tu dirección IP. Solo registra visitas anónimas a las páginas con el sitio de origen, país, navegador y tamaño de pantalla. La app no lo usa.
 
 ## Menores
 La app no está dirigida a menores y no recoge datos personales.
