@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 8.0+">
   <img src="https://img.shields.io/badge/idiomas-11-0EA5E9" alt="11 idiomas">
   <img src="https://img.shields.io/badge/anuncios-ninguno-16A34A" alt="Sin anuncios">
-  <a href="https://ko-fi.com/davidmartinplanelles"><img src="https://img.shields.io/badge/Ko--fi-ap%C3%B3yame-FF5E5B?logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
+  <a href="https://ko-fi.com/dawyes"><img src="https://img.shields.io/badge/Ko--fi-ap%C3%B3yame-FF5E5B?logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
 </p>
 
 <p align="center">
@@ -199,10 +199,10 @@ Este proyecto no está afiliado a LRCLIB, a lyrics.ovh ni a ninguna app de músi
 ## ☕ Apoya el proyecto
 
 PinyinLyrics es gratis y no tiene anuncios. Si te ayuda a aprender, puedes
-[invitarme a un café en Ko-fi](https://ko-fi.com/davidmartinplanelles).
+[invitarme a un café en Ko-fi](https://ko-fi.com/dawyes).
 
 <p align="center">
-  <a href="https://ko-fi.com/davidmartinplanelles"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Apóyame en Ko-fi"></a>
+  <a href="https://ko-fi.com/dawyes"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Apóyame en Ko-fi"></a>
 </p>
 
 ## Licencias de terceros
